@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Deekshitha M - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4dd98d8a92.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/user.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!----<li><a href="#works">My Work</a></li>-------->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+              
+                <h2>I'm <span>Deekshitha M</span> <br>This is my official portfolio <br>to showcase my all works.</h2>
+            </div>
+            </div>
+        </div>
+       <!-----------------------about------------------------->
+       
+        <div id="about">
+             <div class="container">
+              <div class="row">
+                <div class="about-col-1">
+                <img src="images/logo.jpg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a fourth-year engineering student specializing in Computer Science in Data Science. My aim is to achieve high career growth through a continuous learning process and keep myself dynamic, visionary, and competitive with the changing scenario of the world.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Intermediate in: HTML, CSS, SQL</span><br>Experienced in creating responsive web pages and working with databases using SQL.</li>
+                        <li><span>Intermediate in: C, Python</span><br>Skilled in writing efficient code, handling data processing, and developing basic applications.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Dec 2021 - Aug 2025</span><br>B.E from Vivekananda College of Engineering and Technology, Nehrunagar, Puttur</li>
+                        <li><span>Jun 2019 - May 2021</span><br>PUC from Vittal Pre-University College, Vittal</li>
+                        <li><span>Jun 2015 - May 2019</span><br>SSLC from Government High-School Kolnadu Kadumata, Kolnadu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+
+
+        <!-----------------------Work-----------------------
+          <div id="works">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+                <div class ="works-list">
+                   <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Courier Management Website using DBMS</h2>
+                    <p>Built a website which includes DBMS's CRUD operations </p>
+                    <a href="#">learn more</a>
+                   </div> 
+                   <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Agriculture statistics website using API </h2>
+                    <p>Built a website for retrieving a district agriculture statistic using API  </p>
+                    <a href="#">learn more</a>
+                   </div> 
+                   <div>
+                    <i class="fa-solid fa-message"></i>
+                    <h2>Basic chatbot development </h2>
+                    <p>Built a basic chatbot in a hackathon </p>
+                    <a href="#">learn more</a>
+                   </div>
+                   <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>Human Skin Burn Classification</h2>
+                    <p>Built a model to classify skin burns into four categories using ML techniques</p>
+                    <a href="#">learn more</a>
+                   </div>  
+                </div>
+
+            </div>
+        </div>
+        ------------------portfolio-------------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-10.jpg">
+                        <div class="layer">
+                            <h3>Courier Management Website using DBMS</h3>
+                            <p>Built a website which includes DBMS's CRUD operations</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.jpg">
+                        <div class="layer">
+                            <h3>Agriculture statistics website using API</h3>
+                            <p>Built a website for retrieving a district agriculture statistic using API </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="images/work-5.jpeg">
+                        <div class="layer">
+                            <h3>Basic chatbot development</h3>
+                            <p>Built a basic chatbot in a hackathon</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-7.jpg">
+                        <div class="layer">
+                            <h3>Human Skin Burn Classification</h3>
+                            <p>Built a model to classify skin burns into four categories using ML techniques</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+         <!------------------------contact------------------------->  
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>deekshmm@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>7483015746</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/deekshitha-m-447110263" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+                            <a href="https://github.com/Deekshitha123M"><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/my_cv.pdf"download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>                    
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Deekshitha M. All rights reserved</p>
+            </div>
+         </div>      
+         <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (var tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (var tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const scriptURL = 'https://script.google.com/macros/s/AKfycby-krMuKBzFD1MNEtO4DfbAQkAyPgcoEZVJ7ivARgg6R-SMaFAjEcedzfRkAlwegMax/exec';
+                const form = document.forms['submit-to-google-sheet'];
+                const msg = document.getElementById("msg");
+            
+                if (form) { // Check if form element is found
+                    form.addEventListener('submit', e => {
+                        e.preventDefault();
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                            .then(response => {
+                                msg.innerHTML = "Message sent successfully";
+                                setTimeout(() => { msg.innerHTML = ""; }, 5000);
+                                form.reset();
+                            })
+                            .catch(error => {
+                                msg.innerHTML = "Error sending message.";
+                                console.error('Error!', error.message);
+                            });
+                    });
+                } else {
+                    console.error("Form not found! Check the form name.");
+                }
+            });            
+          </script>
+        </body>
+</html>
+
+   
